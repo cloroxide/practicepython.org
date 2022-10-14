@@ -1,0 +1,4 @@
+Name, Age = input("What's your name and age?\n").split()
+Age = int(Age)
+HundredAge = (100 - Age) + 2022
+print(Name + ",you will be a 100 years old at " + str(HundredAge) )
