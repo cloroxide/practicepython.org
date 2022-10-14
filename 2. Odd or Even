@@ -1,0 +1,13 @@
+num = int(input("Type a number \n"))
+if num % 4 == 0:
+    print("Number Multple of 4")
+if num % 2 == 0:
+    print("This is an even number")
+else :
+    print("This is an odd number")
+
+num2,divide = input("Input 2 numbers\n").split()
+if int(divide) % int(num2) == 0:
+    print(divide + " divides evenly into " + num2)
+if int(divide) % int(num2) != 0:
+    print(divide + " does not divide evenly into " + num2)
